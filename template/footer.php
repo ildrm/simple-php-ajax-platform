@@ -1,0 +1,1 @@
+<div class="block"><?php include_once(dirname(__FILE__).'/footer/footer.php'); ?></div>

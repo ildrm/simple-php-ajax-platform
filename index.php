@@ -8,7 +8,7 @@
     <script src="assets/jquery.min.js"></script>
     <style>
     .block {clear:both;}
-    .side-block {float:left}
+    .side-block {float:left;padding: 5px;}
     </style>
 </head>
 <body>

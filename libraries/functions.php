@@ -26,3 +26,14 @@ function check_exist_email($email) {
         return false;
     }
 }
+
+function get_post($id) {
+    global $db;
+    if ($result = mysqli_query($db, "SELECT * FROM posts WHERE `id` = '$id' LIMIT 1")) {
+        $post = mysqli_fetch_assoc($result);
+        $result->close();
+        return $post ? $post : false;
+    } else {
+        return false;
+    }
+}

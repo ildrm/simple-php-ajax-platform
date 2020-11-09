@@ -7,8 +7,16 @@
 
     <script src="assets/jquery.min.js"></script>
     <style>
-    .block {clear:both;}
+    .block {clear:both;text-align:center;}
     .side-block {float:left;padding: 5px;}
+    .menu {
+        background: cornflowerblue;
+        padding: 5px;
+    }
+    .menu a {
+        color: yellow;
+        text-decoration: none;
+    }
     </style>
 </head>
 <body>
